@@ -1,8 +1,7 @@
 /*======================================
   class MergeSortTester
 
-  ALGORITHM:
-  <INSERT YOUR DISTILLATION OF ALGO HERE>
+  ALGORITHM: This algorithm starts on the basic idea that a single card is sorted with itself. It takes a deck and divides it repeatedly in half until each subdivision is one card long. Then, there is a merge method that takes two sorted lists and puts them together. The merge method is used to recursively put the subdivisions of the deck back together.
 
   BIG-OH CLASSIFICATION OF ALGORITHM:
   O(nlogn): Since the recursive aspect of the mergesort algo splits the dataset in two every time, the runtime would be logn. (Essentially (½)^(# of divisions)) However, since the sort method also calls the merge method, and the merge method runs through each dataset linearly, the total runtime would be O(nlogn).
@@ -17,7 +16,7 @@
   n=1000 time: 2.412124375
 
   ANALYSIS:
-  <INSERT YOUR RESULTS ANALYSIS HERE>
+  see google doc link in README.md in the root of the AACK repo
   ======================================*/
 
 /*======================================
