@@ -15,20 +15,20 @@ Angela Kim, Alison Lee, Kevin Li
 <p> O(nlogn): Since the recursive aspect of the mergesort algo splits the dataset in two every time, the runtime would be logn. (Essentially (½)^(# of divisions)) However, since the sort method also calls the merge method, and the merge method runs through each dataset linearly, the total runtime would be O(nlogn). </p>
 
 <h2> DATA AND ANALYSIS: </h2>
-![DataTable](DataTable.jpg)  
+![DataTable](DataTable.png)  
 <p> This data represents an average of 1000 trials of the given n values. The times are represented in milliseconds. </p>
-![DataPlot](DataPlot.jpg)
+![DataPlot](DataPlot.png)
 <p> The data is plotted here, using <a href="https://www.desmos.com/calculator"> Desmos </a>. </p>
 <h3> Linear Regression: </h3>
-![Linear](Linear.jpg)
+![Linear](Linear.png)
 <h3> Quadratic Regression: </h3>
-![Quadratic](Quadratic.jpg)
+![Quadratic](Quadratic.png)
 <h3> Logarithmic Regression: </h3>
-![Logarithmic](Logarithmic.jpg)
+![Logarithmic](Logarithmic.png)
 <h3> LogLinear Regression: </h3>
-![LogLinear](LogLinear.jpg)
+![LogLinear](LogLinear.png)
 <h3> Combined Graph </h3>
-![Combined](Combination.jpg)
+![Combined](Combination.png)
 <p> The 3 more likely regressions were plotted onto the points, and it seemed that the linear and loglinear regressions most closely fit the data. For the specific data points used, it seems that a <b> O(n) </b> seems most appropriate. However, the experiment may also produce more interesting or different results given more than 1000 trials, and more experimentation for even larger values of n. </p>
 
 
